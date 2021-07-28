@@ -391,6 +391,8 @@ impl Enigo {
     }
 }
 
+unsafe impl Send for Enigo {}
+
 use std::fmt;
 
 impl fmt::Debug for Enigo {
