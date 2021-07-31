@@ -1,5 +1,4 @@
-// https://stackoverflow.
-// com/questions/3202629/where-can-i-find-a-list-of-mac-virtual-key-codes
+// https://stackoverflow.com/questions/3202629/where-can-i-find-a-list-of-mac-virtual-key-codes
 
 /* keycodes for keys that are independent of keyboard layout */
 
@@ -53,3 +52,22 @@ pub const kVK_LeftArrow: u16 = 0x7B;
 pub const kVK_RightArrow: u16 = 0x7C;
 pub const kVK_DownArrow: u16 = 0x7D;
 pub const kVK_UpArrow: u16 = 0x7E;
+pub const kVK_ANSI_Keypad0: u16 = 0x52;
+pub const kVK_ANSI_Keypad1: u16 = 0x53;
+pub const kVK_ANSI_Keypad2: u16 = 0x54;
+pub const kVK_ANSI_Keypad3: u16 = 0x55;
+pub const kVK_ANSI_Keypad4: u16 = 0x56;
+pub const kVK_ANSI_Keypad5: u16 = 0x57;
+pub const kVK_ANSI_Keypad6: u16 = 0x58;
+pub const kVK_ANSI_Keypad7: u16 = 0x59;
+pub const kVK_ANSI_Keypad8: u16 = 0x5B;
+pub const kVK_ANSI_Keypad9: u16 = 0x5C;
+pub const kVK_ANSI_KeypadClear: u16 = 0x47;
+pub const kVK_ANSI_KeypadDecimal: u16 = 0x41;
+pub const kVK_ANSI_KeypadMultiply: u16 = 0x43;
+pub const kVK_ANSI_KeypadPlus: u16 = 0x45;
+pub const kVK_ANSI_KeypadDivide: u16 = 0x4B;
+pub const kVK_ANSI_KeypadEnter: u16 = 0x4C;
+pub const kVK_ANSI_KeypadMinus: u16 = 0x4E;
+pub const kVK_ANSI_KeypadEquals: u16 = 0x51;
+pub const kVK_RIGHT_COMMAND: u16 = 0x36;
