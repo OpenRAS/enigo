@@ -384,7 +384,7 @@ impl MouseControllable for Enigo {
                 unsafe {
                     let mouse_ev = CGEventCreateScrollWheelEvent(
                         &src,
-                        ScrollUnit::Line,
+                        ScrollUnit::Pixel,
                         2, // CGWheelCount 1 = y 2 = xy 3 = xyz
                         0,
                         scroll_direction,
@@ -411,7 +411,7 @@ impl MouseControllable for Enigo {
                 unsafe {
                     let mouse_ev = CGEventCreateScrollWheelEvent(
                         &src,
-                        ScrollUnit::Line,
+                        ScrollUnit::Pixel,
                         1, // CGWheelCount 1 = y 2 = xy 3 = xyz
                         scroll_direction,
                     );
