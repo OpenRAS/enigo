@@ -254,7 +254,9 @@ impl Default for Enigo {
                 // log::info!("double click interval: {}ms", double_click_interval);
             }
         }
-        Self {
+        
+        
+        let mut result = Self {
             // TODO(dustin): return error rather than panic here
             event_source: if let Ok(src) =
                 CGEventSource::new(CGEventSourceStateID::CombinedSessionState)
@@ -268,7 +270,11 @@ impl Default for Enigo {
             multiple_click: 1,
             last_click_time: None,
             flags: CGEventFlags::CGEventFlagNull,
-        }
+        };
+
+        result.init_map();
+
+        result
     }
 }
 
